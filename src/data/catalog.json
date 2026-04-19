@@ -6,10 +6,7 @@
     "spec": "Next-gen Blackwell · AI & ray tracing, reimagined",
     "price": 1999,
     "variants": [
-      { "id": "founders", "label": "Founders", "hex": "#2a2a2e", "img": "products/RTX5090.webp" },
-      { "id": "titanium", "label": "Titanium", "hex": "#9ca3af", "img": "products/RTX5090.webp" },
-      { "id": "copper", "label": "Copper", "hex": "#b87333", "img": "products/RTX5090.webp" },
-      { "id": "obsidian", "label": "Obsidian", "hex": "#0f172a", "img": "products/RTX5090.webp" }
+      { "id": "founders", "label": "Founders", "hex": "#2a2a2e", "img": "products/RTX5090.webp" }
     ]
   },
   {
@@ -21,8 +18,7 @@
     "variants": [
       { "id": "midnight", "label": "Midnight", "hex": "#1d1d1f", "img": "products/airpodsmax2_black.webp" },
       { "id": "blue", "label": "Blue", "hex": "#4a6fa5", "img": "products/airpodsmax2_blue.webp" },
-      { "id": "purple", "label": "Purple", "hex": "#7c6f9c", "img": "products/airpodsmax2_purple.webp" },
-      { "id": "starlight", "label": "Starlight", "hex": "#e8e4dc", "img": "products/airpodsmax2_starlight.webp", "ring": "ring-1 ring-zinc-300" }
+      { "id": "purple", "label": "Purple", "hex": "#7c6f9c", "img": "products/airpodsmax2_purple.webp" }
     ]
   },
   {
