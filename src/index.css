@@ -1,0 +1,50 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
+  --color-lime: #d4f06d;
+  --color-bg-tr: #d1dcdd;
+  --color-bg-bl: #eeefda;
+}
+
+html {
+  scroll-behavior: smooth;
+  min-height: 100%;
+  min-height: 100dvh;
+  min-height: -webkit-fill-available;
+  overflow-x: clip;
+  background-image: linear-gradient(
+    to bottom left,
+    var(--color-bg-tr) 0%,
+    var(--color-bg-bl) 100%
+  );
+  background-attachment: fixed;
+  overscroll-behavior: none;
+}
+
+body {
+  @apply m-0 min-h-svh overflow-x-clip font-sans text-zinc-900 antialiased;
+  background-color: var(--color-bg-bl);
+  background-image: linear-gradient(
+      to bottom left,
+      var(--color-bg-tr) 0%,
+      var(--color-bg-bl) 100%
+    ),
+    linear-gradient(rgb(255 255 255 / 0.14), rgb(255 255 255 / 0.14));
+  background-attachment: fixed;
+}
+
+#root {
+  min-height: 100%;
+  min-height: 100dvh;
+  min-height: -webkit-fill-available;
+  overflow-x: clip;
+}
+
+.glass-panel {
+  @apply rounded-[2rem] border border-white/60 bg-white/70 shadow-[0_24px_80px_-24px_rgba(15,23,42,0.14)] backdrop-blur-2xl;
+}
+
+.glass-pill {
+  @apply rounded-full border border-white/55 bg-white/55 shadow-[0_8px_40px_-12px_rgba(15,23,42,0.1)] backdrop-blur-md;
+}

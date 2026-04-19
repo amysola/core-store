@@ -1,0 +1,71 @@
+[
+  {
+    "id": "nvidia-rtx-5090",
+    "name": "GeForce RTX 5090",
+    "category": "Graphics",
+    "spec": "Next-gen Blackwell · AI & ray tracing, reimagined",
+    "price": 1999,
+    "variants": [
+      { "id": "founders", "label": "Founders", "hex": "#2a2a2e", "img": "products/RTX5090.webp" },
+      { "id": "titanium", "label": "Titanium", "hex": "#9ca3af", "img": "products/RTX5090.webp" },
+      { "id": "copper", "label": "Copper", "hex": "#b87333", "img": "products/RTX5090.webp" },
+      { "id": "obsidian", "label": "Obsidian", "hex": "#0f172a", "img": "products/RTX5090.webp" }
+    ]
+  },
+  {
+    "id": "airpods-max-2",
+    "name": "AirPods Max 2",
+    "category": "Audio",
+    "spec": "Pro sound · adaptive audio · all-day comfort",
+    "price": 549,
+    "variants": [
+      { "id": "midnight", "label": "Midnight", "hex": "#1d1d1f", "img": "products/airpodsmax2_black.webp" },
+      { "id": "blue", "label": "Blue", "hex": "#4a6fa5", "img": "products/airpodsmax2_blue.webp" },
+      { "id": "purple", "label": "Purple", "hex": "#7c6f9c", "img": "products/airpodsmax2_purple.webp" },
+      { "id": "starlight", "label": "Starlight", "hex": "#e8e4dc", "img": "products/airpodsmax2_starlight.webp", "ring": "ring-1 ring-zinc-300" }
+    ]
+  },
+  {
+    "id": "apple-vision-pro",
+    "name": "Apple Vision Pro",
+    "category": "Spatial",
+    "spec": "visionOS · ultra-high-res displays · spatial audio",
+    "price": 3499,
+    "variants": [
+      { "id": "silver", "label": "Silver", "hex": "#d4d4d8", "img": "products/visionpro.webp", "ring": "ring-1 ring-zinc-300" }
+    ]
+  },
+  {
+    "id": "alienware-18-area51",
+    "name": "Alienware 18 Area-51",
+    "category": "Gaming",
+    "spec": "18\" display · desktop-class power · Legend 4 design",
+    "price": 4499,
+    "variants": [
+      { "id": "dark", "label": "Dark", "hex": "#1a1d24", "img": "products/alienware18_area51.webp" }
+    ]
+  },
+  {
+    "id": "sony-inzone-kbd-h75",
+    "name": "INZONE KBD-H75",
+    "category": "Keyboards",
+    "spec": "Wireless · compact 75% · low-latency gaming",
+    "price": 380,
+    "variants": [
+      { "id": "black", "label": "Black", "hex": "#1a1a1c", "img": "products/kbd_inzone_h75.webp" }
+    ]
+  },
+  {
+    "id": "sony-wh1000xm6",
+    "name": "Sony WH-1000XM6",
+    "category": "Audio",
+    "spec": "Industry-leading noise canceling · 30h battery · multipoint",
+    "price": 399,
+    "variants": [
+      { "id": "black", "label": "Black", "hex": "#18181b", "img": "products/sony_wh1000xm6_black.webp" },
+      { "id": "blue", "label": "Blue", "hex": "#3d5a8c", "img": "products/sony_wh1000xm6_blue.webp" },
+      { "id": "pink", "label": "Pink", "hex": "#d4a5b8", "img": "products/sony_wh1000xm6_pink.webp" },
+      { "id": "white", "label": "White", "hex": "#ececec", "img": "products/sony_wh1000xm6_white.webp", "ring": "ring-1 ring-zinc-300" }
+    ]
+  }
+]
